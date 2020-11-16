@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="src/styles.css">
+    <title>Messenger</title>
+</head>
+<body>
+<header class="head">
+    <div class="logo">
+        Смечатик
+    </div>
+</header>
+<div class="main">
+    <div class="left-bar">
+        <div class="chat-list">
+                <input id="krosh" type="radio" name="radio" value="0" checked>
+                <label for="krosh" class="chat-item"><img src="src/images/krosh.png" alt=""><span class="name">Крош</span></label>
+                <input id="ezhik" type="radio" name="radio" value="1">
+                <label for="ezhik" class="chat-item"><img src="src/images/ezhik.png" alt="">Ёжик</label>
+                <input id="losyash" type="radio" name="radio" value="2">
+                <label for="losyash" class="chat-item"><img src="src/images/losyash.png" alt="">Лосяш</label>
+                <input id="karich" type="radio" name="radio" value="3">
+                <label for="karich" class="chat-item"><img src="src/images/karich.png" alt="">Карыч</label>
+                <input id="kopatich" type="radio" name="radio" value="4">
+                <label for="kopatich" class="chat-item"><img src="src/images/kopatich.png" alt="">Нюша</label>
+        </div>
+    </div>
+    <div class="right-bar">
+        <div id="content">
+
+        </div>
+        <div class="mess_field">
+            <label for="text"></label>
+            <input type="text" name="text" id="text" placeholder="Введите сообщение...">
+            <div class="btns">
+                <button type="submit" id="send">Отправить</button>
+                <button type="submit" id="clear">Очистить</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="foot-tittle">
+        Рики
+    </div>
+    <div class="foot-subtittle">
+        ©2008-2020 "Новые медиа"
+    </div>
+</footer>
+<script src="src/script.js"></script>
+</body>
+</html>

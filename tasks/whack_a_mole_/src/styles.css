@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.game{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: url("https://cdn.marketjs.net/games/whack-a-mole/localization/en/media/graphics/game/horizont.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    width: 17%;
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px;
+
+    background: antiquewhite;
+    border: 3px solid goldenrod;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu_btn{
+    width: 30px;
+    height: 30px;
+}
+
+.play{
+    width: 50px;
+    height: 50px;
+    border: 3px solid green;
+    background: papayawhip;
+    border-radius: 100px;
+    outline: none;
+    z-index: 1;
+}
+
+.play:hover{
+    background: greenyellow;
+    transition: all 0.2s linear;
+}
+
+.play:active{
+    background: papayawhip;
+    transition: all 0.1s linear;
+}
+
+#points{
+    font-size: 30px;
+    color: blue;
+}
+
+.score{
+    font-size: 30px;
+    color: blue;
+}
+
+#mole_container{
+    width: 80%;
+    height: 90%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.mole{
+
+    padding: 40px;
+
+}
+
+.mol{
+    display: none;
+    width: 70px;
+    height: 50px;
+}
+
+#timer{
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+#progress_bar{
+    width: 80%;
+    height: 20%;
+    margin-bottom: 40px;
+    background: papayawhip;
+    border: 3px solid goldenrod;
+    border-radius: 60px;
+}
+
+#time{
+    font-size: 22px;
+    padding: 10px;
+    color: blue;
+    background: papayawhip;
+    border: 3px solid goldenrod;
+    border-radius: 60px;
+}

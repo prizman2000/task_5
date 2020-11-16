@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2972e79-7e9f-48ad-9c2d-e4f30c22e208" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jdgsT9W7KygEIT1RKQfY6Zag6J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2972e79-7e9f-48ad-9c2d-e4f30c22e208" name="Default Changelist" comment="" />
+      <created>1604139588639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604139588639</updated>
+      <workItem from="1604139589896" duration="7817000" />
+      <workItem from="1604376121500" duration="31502000" />
+      <workItem from="1604467213331" duration="452000" />
+      <workItem from="1604469234316" duration="4635000" />
+      <workItem from="1604536000120" duration="7326000" />
+      <workItem from="1604570314171" duration="295000" />
+      <workItem from="1604675042287" duration="16000" />
+      <workItem from="1604714966776" duration="7000" />
+      <workItem from="1604722409097" duration="221000" />
+      <workItem from="1605336628422" duration="6000" />
+      <workItem from="1605336637914" duration="3000" />
+      <workItem from="1605435163804" duration="2489000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="65" key="#Deployment" timestamp="1604467375696">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="65" key="#Deployment/0.0.1280.800@0.0.1280.800" timestamp="1604467375696" />
+    <state x="224" y="52" key="#SSH_Configurations" timestamp="1604467344095">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="224" y="52" key="#SSH_Configurations/0.0.1280.800@0.0.1280.800" timestamp="1604467344095" />
+    <state x="511" y="299" key="publish.login" timestamp="1605435889039">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="511" y="299" key="publish.login/0.0.1280.800@0.0.1280.800" timestamp="1605435889039" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1604421427472">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1604421427472" />
+  </component>
+</project>

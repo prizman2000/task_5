@@ -77,13 +77,38 @@ body{
 }
 
 .hobby{
+    position: relative;
+    text-decoration: none;
     flex: 1 1 0;
-    background-color: lightcyan;
-    border-right: 5px solid #fff;
+    background-color: black;
 }
 
-.hobby:last-child{
-    border-right: none;
+.hobby:hover .hobby_img1{
+    opacity: 0.3;
+    transition: all 0.2s linear;
+}
+
+.hobby:hover .hobby_text{
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+
+.hobby_img1{
+    width: 100%;
+    height: 200px;
+    opacity: 1;
+}
+
+.hobby_text{
+    width: 100%;
+    opacity: 0;
+
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
 }
 
 .hobby_title{
@@ -120,6 +145,8 @@ body{
 
 .foot_btn:hover{
     background-color: #fff;
+    border: 1px #fff;
+    border-radius: 20%;
     color: #333;
 }
 
@@ -141,4 +168,3 @@ body{
 
     font-size: 20px;
 }
-

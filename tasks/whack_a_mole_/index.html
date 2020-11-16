@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="src/styles.css">
+    <title>Whack a mole</title>
+</head>
+<body>
+<div class="game">
+    <div class="menu">
+        <button class="play"><img class="menu_btn" src="src/img/play.png" alt="Play"></button>
+        <span class="score">Score: </span>
+        <div id="points">0</div>
+    </div>
+
+    <table id="mole_container">
+        <tr>
+            <td class="mole"><img onclick="deleteMole('m1')" class="mol" id="m1" src="src/img/mole.png" alt="Крот"></td>
+            <td class="mole"><img onclick="deleteMole('m2')" class="mol" id="m2" src="src/img/mole.png" alt="Крот"></td>
+            <td class="mole"><img onclick="deleteMole('m3')" class="mol" id="m3" src="src/img/mole.png" alt="Крот"></td>
+            <td class="mole"><img onclick="deleteMole('m4')" class="mol" id="m4" src="src/img/mole.png" alt="Крот"></td>
+            <td class="mole"><img onclick="deleteMole('m5')" class="mol" id="m5" src="src/img/mole.png" alt="Крот"></td>
+        </tr>
+        <tr>
+            <td class="mole"><img onclick="deleteMole('m6')" class="mol" id="m6" src="src/img/mole.png" alt="Крот"></td>
+            <td class="mole"><img onclick="deleteMole('m7')" class="mol" id="m7" src="src/img/mole.png" alt="Крот"></td>
+            <td class="mole"><img onclick="deleteMole('m8')" class="mol" id="m8" src="src/img/mole.png" alt="Крот"></td>
+            <td class="mole"><img onclick="deleteMole('m9')" class="mol" id="m9" src="src/img/mole.png" alt="Крот"></td>
+            <td class="mole"><img onclick="deleteMole('m10')" class="mol" id="m10" src="src/img/mole.png" alt="Крот"></td>
+        </tr>
+        <tr>
+            <td class="mole"><img onclick="deleteMole('m11')" class="mol" id="m11" src="src/img/mole.png" alt="Крот"></td>
+            <td class="mole"><img onclick="deleteMole('m12')" class="mol" id="m12" src="src/img/mole.png" alt="Крот"></td>
+            <td class="mole"><img onclick="deleteMole('m13')" class="mol" id="m13" src="src/img/mole.png" alt="Крот"></td>
+            <td class="mole"><img onclick="deleteMole('m14')" class="mol" id="m14" src="src/img/mole.png" alt="Крот"></td>
+            <td class="mole"><img onclick="deleteMole('m15')" class="mol" id="m15" src="src/img/mole.png" alt="Крот"></td>
+        </tr>
+    </table>
+    <div id="timer">
+        <span id="time">20</span>
+        <div id="progress_bar"></div>
+    </div>
+</div>
+<script src="src/script.js"></script>
+</body>
+</html>

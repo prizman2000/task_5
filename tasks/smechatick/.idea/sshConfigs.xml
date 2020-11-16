@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="165.227.130.210" id="0d4d8ca8-efc8-4526-a75f-17e17b2cd729" port="22" customName="vm" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="vm" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>
